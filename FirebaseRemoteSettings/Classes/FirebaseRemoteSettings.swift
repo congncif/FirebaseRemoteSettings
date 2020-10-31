@@ -33,7 +33,7 @@ public final class FirebaseRemoteSettings: RemoteSettingsProviding {
         return config
     }
 
-    public var minimumFetchInterval: TimeInterval = 0
+    public var minimumFetchInterval: TimeInterval = 1800
     public var fetchTimeout: TimeInterval = 30
 
     private init() {}

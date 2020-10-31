@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FirebaseRemoteSettings'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.swift_versions    = ['5.0', '5.1', '5.2', '5.3']
   s.summary          = 'A default RemoteSettings for Firebase FirebaseRemoteSettings.'
 
