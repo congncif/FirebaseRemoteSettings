@@ -8,6 +8,7 @@ target 'FirebaseRemoteSettings_Example' do
   pod 'FirebaseRemoteSettings', :path => '../'
   
   pod 'CoreRemoteSettings/RxSwift'
+  pod 'Firebase'
 
   target 'FirebaseRemoteSettings_Tests' do
     inherit! :search_paths

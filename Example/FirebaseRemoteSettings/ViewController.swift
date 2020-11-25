@@ -24,7 +24,8 @@ struct AppRemoteSettings {
 
     var minVersion: Observable<String> {
         provider.rx.value.map {
-            $0.settingsValue(for: Keys.minVersion.rawValue).string
+            let stringValue = $0.settingsValue(for: Keys.minVersion.rawValue).string
+            return stringValue.isEmpty ? "NONE" : stringValue
         }
     }
 }
@@ -38,6 +39,24 @@ class ViewController: UIViewController {
         super.viewDidLoad()
 
         remoteSettings.minVersion
+            .subscribe(onNext: {
+                print("1/ Remote settings value: \($0)")
+            }, onDisposed: {
+                print("1/ Done")
+            })
+            .disposed(by: disposeBag)
+        
+        remoteSettings.minVersion
+            .delay(0.1, scheduler: MainScheduler.asyncInstance)
+            .subscribe(onNext: {
+                print("1/ Remote settings value: \($0)")
+            }, onDisposed: {
+                print("1/ Done")
+            })
+            .disposed(by: disposeBag)
+        
+        remoteSettings.minVersion
+            .delay(0.2, scheduler: MainScheduler.asyncInstance)
             .subscribe(onNext: {
                 print("1/ Remote settings value: \($0)")
             }, onDisposed: {

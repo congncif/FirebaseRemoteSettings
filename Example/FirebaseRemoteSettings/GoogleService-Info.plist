@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>109227243350-vf3bhndssqhknciusnkbtsa7dvgil42i.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.109227243350-vf3bhndssqhknciusnkbtsa7dvgil42i</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>109227243350-c85majiu31plqricrnnp45k1cqf1v78m.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyB1DHRbvZ26kfD8t_c--3IciBTNv0d6eoo</string>
+	<key>GCM_SENDER_ID</key>
+	<string>109227243350</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.app.demo</string>
+	<key>PROJECT_ID</key>
+	<string>simishop-8580f</string>
+	<key>STORAGE_BUCKET</key>
+	<string>simishop-8580f.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:109227243350:ios:048acb50c4e286dd9208f7</string>
+	<key>DATABASE_URL</key>
+	<string>https://simishop-8580f.firebaseio.com</string>
+</dict>
+</plist>

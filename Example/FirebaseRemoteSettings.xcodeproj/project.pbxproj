@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2716EB50256E19E500FFF039 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2716EB4F256E19E500FFF039 /* GoogleService-Info.plist */; };
 		2AE7D62F8E06300342B27457 /* Pods_FirebaseRemoteSettings_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36CAA6D4ED53942C6BAF2CDE /* Pods_FirebaseRemoteSettings_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -28,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2716EB4F256E19E500FFF039 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2C44135FFDC5244CFF9C4B65 /* Pods-FirebaseRemoteSettings_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseRemoteSettings_Example.debug.xcconfig"; path = "Target Support Files/Pods-FirebaseRemoteSettings_Example/Pods-FirebaseRemoteSettings_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		36CAA6D4ED53942C6BAF2CDE /* Pods_FirebaseRemoteSettings_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseRemoteSettings_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		37EA3B79F5D6FC0C05B52C9C /* Pods-FirebaseRemoteSettings_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseRemoteSettings_Tests.release.xcconfig"; path = "Target Support Files/Pods-FirebaseRemoteSettings_Tests/Pods-FirebaseRemoteSettings_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				2716EB4F256E19E500FFF039 /* GoogleService-Info.plist */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -247,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				2716EB50256E19E500FFF039 /* GoogleService-Info.plist in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
