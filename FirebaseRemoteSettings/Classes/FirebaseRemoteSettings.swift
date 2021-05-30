@@ -21,7 +21,7 @@ extension RemoteConfig: RemoteSettings {
     }
 }
 
-public final class FirebaseRemoteSettings: RemoteSettingsProviding {
+public final class FBRemoteSettings: RemoteSettingsProviding {
     private init() {}
 
     public var minimumFetchInterval: TimeInterval = 1800
@@ -119,6 +119,6 @@ public final class FirebaseRemoteSettings: RemoteSettingsProviding {
     }
 }
 
-extension FirebaseRemoteSettings {
-    public static let shared = FirebaseRemoteSettings()
+extension FBRemoteSettings {
+    public static let shared = FBRemoteSettings()
 }
